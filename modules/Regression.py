@@ -4,7 +4,7 @@ from matplotlib.pyplot import rc
 from sklearn.metrics import auc
 from sklearn.model_selection import GridSearchCV
 from sklearn.tree import DecisionTreeRegressor, DecisionTreeClassifier, ExtraTreeClassifier
-from sklearn.neighbors import KNeighborsClassifier, RadiusNeighborsClassifier
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, BaggingRegressor, AdaBoostRegressor
 from xgboost import XGBRegressor
 import sys
