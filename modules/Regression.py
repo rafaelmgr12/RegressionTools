@@ -41,7 +41,7 @@ class Regression():
         '''
         # list of current compatible classifiers
         compatible_classes = [DecisionTreeClassifier(), KNeighborsClassifier(
-        ), ExtraTreeClassifier(), RadiusNeighborsClassifier()]
+        ), ExtraTreeClassifier()]
 
         compatible_classes_str = [str(i) for i in compatible_classes if str(
             i) in self.grid_of_params.keys()]
